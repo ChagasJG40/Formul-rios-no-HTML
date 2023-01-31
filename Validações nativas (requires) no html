@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8>"
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Pagina</title>
+       <link rel="stylesheet" href="estilo.css"
+    </head>
+    <body>
+        <form method="POST">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>
+                    Primeiro Nome: <br/>
+                    <input type="text" name="name" required/>
+
+                </label><br/>
+                <label>
+                    Sobrenome: <br/>
+                    <input type="text" name="Lastname" />
+
+                </label><br/>
+                <label>
+                    Email: <br/>
+                    <input type="text" name="email" required/>
+
+                </label><br/>
+                <label>
+                    Data de Nascimento: <br/>
+                    <input type="date" name="datebirthday" required/>
+
+                </label><br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <label>
+                    Nome da empresa: <br/>
+                    <input type="text" name="companyname" />
+
+                </label><br/>
+            
+            
+                <label>
+                    Cargo na empresa: <br/>
+                    <input type="text" name="companyjobtitle" />
+
+                </label><br/>
+            </fieldset>
+
+            <input type="submit" value="cadastrar" />
+
+        </form>
+    </body>
+
+</html>
